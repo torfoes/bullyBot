@@ -1,6 +1,10 @@
 import pickle
 import random
 import discord
+import os
+
+# loading token
+discord_key = os.environ['TOKEN']
 
 # loading and preparing data 
 insults_list = pickle.load(open("insult_list.pickle", 'rb'))
