@@ -47,4 +47,4 @@ async def on_message(message):
     await message.channel.send(insult_decree(bitch))
 
 
-client.run("OTcwNzI3NzM3Mjg5NDc4MjE1.YnAKpw.dqmSfgWTGtpCgSBuz1khiW62Y0M")
+client.run(discord_key)
